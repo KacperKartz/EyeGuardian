@@ -17,6 +17,9 @@ client.on('messageCreate', message => {
     if (message.content === '!ping') {
         message.channel.send('Pong!');
     }
+    if (message.content === '!sigma') {
+        message.channel.send('brainrot...');
+    }
 });
 
 // Login to Discord using the token from the .env file
